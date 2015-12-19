@@ -3,6 +3,7 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="javascripts/addfriend.js"></script>
   </head>
   <body>
     <h1><%= title %></h1>
@@ -17,5 +18,18 @@
             <b>LETS GO!</b>
         </p>
     </div>
+    <div id="name-email-tab">
+        <table id="entries">
+            <thead>
+                <tr>
+                    <th> Names </th>
+                    <th> Emails </th>
+                </tr>
+            </thead>
+            <tbody id="info">
+            </tbody>
+        </table>
+    </div>
+    <button id="addrow"> Add Friend </b> 
   </body>
 </html>
